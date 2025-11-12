@@ -72,26 +72,4 @@ Generates **Figure 8**.
 | `environment.yml` | Conda environment configuration. |
 | `requirements.txt` | Python dependencies list. |
 
-## Citation
 
-If you find this repository useful, please cite:
-```bibtex
-@article{xu2025randomizedhoedmd,
-  title={Randomized Structured-TLS Based Higher Order Extended Dynamic Mode Decomposition},
-  author={Xu, Jianyuan and others},
-  journal={arXiv preprint arXiv:25xx.xxxxx},
-  year={2025}
-}
-```
-
-## License
-
-This project is released under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
-## Contact
-
-Jianyuan Xu  
-PhD Candidate in Applied Mathematics, Fudan University (Shanghai, China)  
-Email: xujianyuan611@fudan.edu.cn  
-Google Scholar: https://scholar.google.com/citations?user=ZB-WSOcAAAAJ&hl=en  
-ORCID: https://orcid.org/0009-0000-4079-5205
