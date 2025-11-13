@@ -19,7 +19,7 @@ You can set up the environment in one of two ways.
 
 ### Option 1: Using `environment.yml`
 ```bash
-conda env create -f environment.yml
+conda env create -n randomized-hoedmd -f environment.yml
 conda activate randomized-hoedmd
 ```
 
