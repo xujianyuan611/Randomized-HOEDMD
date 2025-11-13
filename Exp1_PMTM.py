@@ -201,8 +201,6 @@ if __name__ == "__main__":
             # Relative reconstruction error of the time series under (H)OEDMD models
             rre_error_Deter_HOEDMD = evaluate_rre(X_noisy,eigenvalues_Deter_HOEDMD,right_eigenvectors_Deter_HOEDMD,left_eigenvectors_hat_Deter_HOEDMD,Phi_x0_Deter_HOEDMD,HOEDMD_flag=True)
             rre_error_Randomized_HOEDMD = evaluate_rre(X_noisy,eigenvalues_Randomized_HOEDMD,right_eigenvectors_Randomized_HOEDMD,left_eigenvectors_hat_Randomized_HOEDMD,Phi_x0_Randomized_HOEDMD,HOEDMD_flag=True)
-            # Alternative reference reconstruction using true modes/eigs:
-            # rre_error_Randomized_HOEDMD = evaluate_rre_zhenshide(X_noisy,lambda_s,U_zhenshide,a_s)
 
             # Record trial metrics for this p
             # Record_each_p
